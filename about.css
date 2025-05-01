@@ -1,0 +1,13 @@
+.text{
+    text-align: center;
+    width: 99vw;
+    border: 1px solid black;
+    background-color: orangered;
+    border-radius: 6px;
+}
+.class{
+    background-color: black;
+}
+p{
+    color: white;
+}

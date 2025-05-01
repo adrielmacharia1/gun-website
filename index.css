@@ -1,0 +1,46 @@
+.set{
+    width: 99vw;
+    border: 1px solid black;
+    text-align: center;
+    background-color: orangered;
+    border-radius: 6px;
+}
+.navigation{
+    border: 1px solid black;
+    width: 99vw;
+    background-color: aqua;
+    border-radius: 6px;
+    display: flex;
+    height: 90px;
+    flex-direction: column;
+    align-content: space-between;
+    
+    
+    
+}
+.body{
+    background-color: black;
+}
+.h2{
+    color: white;
+}
+p{
+    color: white;
+}
+.flex{
+    display: flex;
+    height: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.copy{
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: orangered;
+}
+.btn{
+    border: 1px solid black;
+    width: 10vw;
+    background-color: aqua;
+    border-radius: 3px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title class="title">Precision Arms | Admin</title>
+    <link rel="stylesheet" href="./admin.css">
+</head>
+<body class="bdy">
+    <header><!-- Same navigation --></header>
+
+    <main>
+        <h2>Product Management</h2>
+        <form id="product-form">
+            <input type="text" id="product-name" placeholder="Product Name" required>
+            <select id="product-category" required>
+                <option value="rifles">Rifles</option>
+                <option value="handguns">Handguns</option>
+                <option value="ammo">Ammunition</option>
+            </select>
+            <input type="number" id="product-price" placeholder="Price" step="0.01" required>
+            <button type="submit">Add Product</button>
+        </form>
+        <div id="admin-message"></div>
+    </main>
+
+    <script src="js/admin.js"></script>
+</body>
+</html>
